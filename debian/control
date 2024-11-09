@@ -1,0 +1,12 @@
+Source: ros-jazzy-simple-grasping
+Section: misc
+Priority: optional
+Maintainer: Michael Ferguson <mike@vanadiumlabs.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libpcl-dev, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-cpplint <!nocheck>, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-geometry-msgs, ros-jazzy-grasping-msgs, ros-jazzy-moveit-msgs, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-shape-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/simple_grasping
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-simple-grasping
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-geometry-msgs, ros-jazzy-grasping-msgs, ros-jazzy-moveit-msgs, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-shape-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Description: Basic grasping applications and demos.

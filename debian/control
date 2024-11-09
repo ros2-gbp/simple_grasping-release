@@ -1,0 +1,12 @@
+Source: ros-iron-simple-grasping
+Section: misc
+Priority: optional
+Maintainer: Michael Ferguson <mike@vanadiumlabs.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libpcl-dev, ros-iron-ament-cmake, ros-iron-ament-cmake-cpplint <!nocheck>, ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-geometry-msgs, ros-iron-grasping-msgs, ros-iron-moveit-msgs, ros-iron-pcl-conversions, ros-iron-pcl-ros, ros-iron-rclcpp, ros-iron-rclcpp-action, ros-iron-rclcpp-components, ros-iron-sensor-msgs, ros-iron-shape-msgs, ros-iron-tf2-ros, ros-iron-ros-workspace
+Homepage: http://ros.org/wiki/simple_grasping
+Standards-Version: 3.9.2
+
+Package: ros-iron-simple-grasping
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-geometry-msgs, ros-iron-grasping-msgs, ros-iron-moveit-msgs, ros-iron-pcl-conversions, ros-iron-pcl-ros, ros-iron-rclcpp, ros-iron-rclcpp-action, ros-iron-rclcpp-components, ros-iron-sensor-msgs, ros-iron-shape-msgs, ros-iron-tf2-ros, ros-iron-ros-workspace
+Description: Basic grasping applications and demos.

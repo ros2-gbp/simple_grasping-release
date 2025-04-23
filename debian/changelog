@@ -1,0 +1,59 @@
+ros-kilted-simple-grasping (0.5.0-2bookworm) bookworm; urgency=high
+
+  * remove unported script
+  * add documentation
+  * forward port continuous detection (#16 <https://github.com/mikeferguson/simple_grasping/issues/16>)
+    forward port of #7 <https://github.com/mikeferguson/simple_grasping/issues/7>
+  * add support for QoS overrides (#15 <https://github.com/mikeferguson/simple_grasping/issues/15>)
+  * add continuous integration (#14 <https://github.com/mikeferguson/simple_grasping/issues/14>)
+    targeting iron only right now - grasping_msgs just released into jazzy
+  * cleanup dependencies and build, works on jazzy
+  * replace c-style cast
+  * fix issues in package.xml
+    trying to get the build farm to succeed on source job
+  * add LICENSE file
+  * updates for ROS2 humble (#9 <https://github.com/mikeferguson/simple_grasping/issues/9>)
+  * initial port to ros2 (#6 <https://github.com/mikeferguson/simple_grasping/issues/6>)
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Fri, 08 Nov 2024 06:00:00 -0000
+
+ros-kilted-simple-grasping (0.3.1-2bookworm) bookworm; urgency=high
+
+  * insert proper key name
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Tue, 14 Aug 2018 05:00:00 -0000
+
+ros-kilted-simple-grasping (0.3.0-2bookworm) bookworm; urgency=high
+
+  * Merge pull request #4 <https://github.com/mikeferguson/simple_grasping/issues/4> from mikaelarguedas/patch-1
+    add libvtk6-qt-dev dependency to build on Debian Stretch
+  * add libvtk6-qt-dev dependency to build on Debian Stretch
+    the libpcl-dev package is missing a dependency causing the Qt5::Widgets target to be exported but not satisfied.
+  * Contributors: Michael Ferguson, Mikael Arguedas
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Tue, 14 Aug 2018 05:00:00 -0000
+
+ros-kilted-simple-grasping (0.2.2-2bookworm) bookworm; urgency=high
+
+  * parameterize gripper opening tolerance
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Fri, 24 Apr 2015 05:00:00 -0000
+
+ros-kilted-simple-grasping (0.2.1-2bookworm) bookworm; urgency=high
+
+  * create standalone grasp_planner_node
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Sun, 05 Apr 2015 05:00:00 -0000
+
+ros-kilted-simple-grasping (0.2.0-2bookworm) bookworm; urgency=high
+
+  * Initial release
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Wed, 18 Mar 2015 05:00:00 -0000
+
+

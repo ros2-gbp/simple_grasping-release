@@ -2,6 +2,12 @@
 Changelog for package simple_grasping
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.0 (2026-01-24)
+------------------
+* replace ament_target_dependencies (`#18 <https://github.com/mikeferguson/simple_grasping/issues/18>`_)
+* update CI to run on kilted/rolling (`#19 <https://github.com/mikeferguson/simple_grasping/issues/19>`_)
+* Contributors: Michael Ferguson
+
 0.5.0 (2024-11-08)
 ------------------
 * remove unported script

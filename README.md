@@ -1,3 +1,26 @@
+## simple_grasping (kilted) - 0.6.0-1
+
+The packages in the `simple_grasping` repository were released into the `kilted` distro by running `/usr/bin/bloom-release -r kilted -t kilted simple_grasping` on `Sat, 24 Jan 2026 18:14:30 -0000`
+
+The `simple_grasping` package was released.
+
+Version of package(s) in repository `simple_grasping`:
+
+- upstream repository: https://github.com/mikeferguson/simple_grasping.git
+- release repository: https://github.com/ros2-gbp/simple_grasping-release.git
+- rosdistro version: `0.5.0-2`
+- old version: `0.5.0-2`
+- new version: `0.6.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## simple_grasping (jazzy) - 0.5.0-1
 
 The packages in the `simple_grasping` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release -r jazzy -t jazzy simple_grasping` on `Sat, 09 Nov 2024 01:36:22 -0000`

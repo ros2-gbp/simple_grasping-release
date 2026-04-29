@@ -1,0 +1,12 @@
+Source: ros-lyrical-simple-grasping
+Section: misc
+Priority: optional
+Maintainer: Michael Ferguson <mike@vanadiumlabs.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libpcl-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-cpplint <!nocheck>, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-grasping-msgs, ros-lyrical-moveit-msgs, ros-lyrical-pcl-conversions, ros-lyrical-pcl-ros, ros-lyrical-rclcpp, ros-lyrical-rclcpp-action, ros-lyrical-rclcpp-components, ros-lyrical-sensor-msgs, ros-lyrical-shape-msgs, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/simple_grasping
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-simple-grasping
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-geometry-msgs, ros-lyrical-grasping-msgs, ros-lyrical-moveit-msgs, ros-lyrical-pcl-conversions, ros-lyrical-pcl-ros, ros-lyrical-rclcpp, ros-lyrical-rclcpp-action, ros-lyrical-rclcpp-components, ros-lyrical-sensor-msgs, ros-lyrical-shape-msgs, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Description: Basic grasping applications and demos.
